@@ -8,3 +8,4 @@
 --platform=linux/amd64 python:3.9.19
 --platform=linux/amd64 python:3.10.13
 --platform=linux/amd64 python:3.11.8
+--platform=linux/amd64 mysql:8.0.39
