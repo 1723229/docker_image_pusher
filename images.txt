@@ -11,8 +11,9 @@
 #--platform=linux/amd64 python:3.11.8
 #--platform=linux/amd64 mysql:8.0.39
 #--platform=linux/amd64 vllm/vllm-openai:latest
---platform=linux/amd64 vllm/vllm-openai:v0.4.2
+#--platform=linux/amd64 vllm/vllm-openai:v0.4.2
 #--platform=linux/amd64 openjdk:8-jre-alpine
 #--platform=linux/amd64 node:14.21.3
 #--platform=linux/amd64 nginx:latest
 #--platform=linux/amd64 pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+--platform=linux/arm64 zilliz/attu:v2.4.9
