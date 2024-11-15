@@ -5,6 +5,7 @@
 #支持指定架构
 #--platform=linux/amd64 nvidia/cuda:12.0.0-cudnn8-devel-ubuntu20.04
 --platform=linux/amd64 xprobe/xinference:latest-cpu
+#--platform=linux/amd64 xprobe/xinference:latest
 #--platform=linux/amd64 python:3.8.20
 #--platform=linux/amd64 python:3.9.19
 #--platform=linux/amd64 python:3.10.13
@@ -18,4 +19,4 @@
 #--platform=linux/amd64 pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
 #--platform=linux/arm64 zilliz/attu:v2.4.9
 #--platform=linux/amd64 redis:5.0.14
---platform=linux/amd64  cnstark/pytorch:2.0.1-py3.9.17-cuda11.8.0-ubuntu20.04
+#--platform=linux/amd64  cnstark/pytorch:2.0.1-py3.9.17-cuda11.8.0-ubuntu20.04
