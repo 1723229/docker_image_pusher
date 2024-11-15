@@ -4,7 +4,7 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/amd64 nvidia/cuda:12.0.0-cudnn8-devel-ubuntu20.04
-#--platform=linux/amd64 xprobe/xinference:latest-cpu
+--platform=linux/amd64 xprobe/xinference:latest-cpu
 #--platform=linux/amd64 python:3.8.20
 #--platform=linux/amd64 python:3.9.19
 #--platform=linux/amd64 python:3.10.13
