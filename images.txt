@@ -20,4 +20,5 @@
 #--platform=linux/arm64 zilliz/attu:v2.4.9
 #--platform=linux/amd64 redis:5.0.14
 #--platform=linux/amd64  cnstark/pytorch:2.0.1-py3.9.17-cuda11.8.0-ubuntu20.04
---platform=linux/amd64 vllm/vllm-openai:v0.6.6.post1
+#--platform=linux/gamd64 vllm/vllm-openai:v0.6.6.post1
+--platform=linux/arm64/v8  openjdk:18-oracle
