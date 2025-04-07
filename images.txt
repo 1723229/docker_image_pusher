@@ -13,7 +13,7 @@
 #--platform=linux/amd64 mysql:8.0.39
 #--platform=linux/amd64 vllm/vllm-openai:latest
 #--platform=linux/amd64 vllm/vllm-openai:v0.7.1
---platform=linux/amd64 milvusdb/milvus:v2.5.5-gpu
+#--platform=linux/amd64 milvusdb/milvus:v2.5.5-gpu
 #--platform=linux/amd64 openjdk:8-jre-alpine
 #--platform=linux/amd64 node:14.21.3
 #--platform=linux/amd64 nginx:latest
@@ -23,3 +23,6 @@
 #--platform=linux/amd64  cnstark/pytorch:2.0.1-py3.9.17-cuda11.8.0-ubuntu20.04
 #--platform=linux/gamd64 vllm/vllm-openai:v0.6.6.post1
 #--platform=linux/arm64/v8  openjdk:18-oracle
+--platform=linux/amd64 grafana/grafana:latest
+--platform=linux/amd64 prom/prometheus:latest
+--platform=linux/amd64 nacos/nacos-server:v2.5.1
